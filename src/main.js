@@ -4,12 +4,6 @@ import {Deck} from '@deck.gl/core';
 import {TileLayer, Tile3DLayer} from '@deck.gl/geo-layers';
 import {BitmapLayer} from '@deck.gl/layers';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <canvas id="map" class="w-full h-screen"></canvas>
-  </div>
-`
-
 window.Alpine = Alpine;
 Alpine.data('app', () => ({
   count: 0,
